@@ -1,0 +1,51 @@
+.header {
+  border: 1 px solid white;
+}
+.a-logo {
+  padding: 0 7px 0 5px;
+  border-radius: 2px;
+  border-color: #fff;
+  outline: 0;
+}
+.a-logo1 {
+  width: auto;
+  padding: 4px 0 0 0;
+  display: flex;
+  position: relative;
+  float: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.a-logo1 a:hover {
+  outline: 1px solid white;
+}
+.nav-logo-link {
+  display: flex;
+  position: static;
+  float: none;
+  text-decoration: none;
+  padding: 1px 8px 0 6px;
+  margin: 1px;
+}
+
+.logo-img {
+  padding: 0px;
+  margin-top: 12px;
+}
+.logo-img-s {
+  margin-left: -1.625rem;
+  margin-top: 10px;
+}
+
+.address-box {
+  border: 0px solid white;
+}
+.address-box > div:hover {
+  outline: 1px solid white;
+}
+/* 
+.search-box {
+  border: 1px solid white;
+} */
