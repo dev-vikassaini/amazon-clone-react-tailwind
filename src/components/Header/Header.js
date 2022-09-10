@@ -5,12 +5,15 @@ import SubHeader from "./SubHeader";
 import SearchIcon from "@mui/icons-material/Search";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import LeftNav from "./LeftNav";
 
 export default function Header() {
   const href = "#!";
+  let hideShow = false;
 
   return (
     <React.Fragment>
+      {hideShow ? <LeftNav /> : ''}
       <header className="w-full h-[99px] flex flex-col">
         <div className="main-header w-full h-[60px] bg-black text-white flex flex-row justify-start">
           <div className="w-[70%] flex flex-row">

@@ -1,7 +1,6 @@
 import React from 'react'
 import './Footer.css';
 import LanguageIcon from '@mui/icons-material/Language';
-import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 function Footer() {
