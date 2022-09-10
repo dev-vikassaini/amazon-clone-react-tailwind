@@ -45,7 +45,16 @@
 .address-box > div:hover {
   outline: 1px solid white;
 }
-/* 
-.search-box {
-  border: 1px solid white;
-} */
+.internalization-box > div:hover {
+  outline: 1px solid white;
+}
+.account-list-box > div:hover {
+  outline: 1px solid white;
+}
+.return-box > div:hover {
+  outline: 1px solid white;
+}
+.cart-box > div:hover {
+  outline: 1px solid white;
+}
+
